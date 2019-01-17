@@ -6,15 +6,13 @@ describe "Card" do
 
   describe "#initialize" do
   
-  it "takes in a value" do
-    expect(a_hearts.value).to eq("A")
-  end
+    it "takes in a value" do
+      expect(a_hearts.value).to eq("A")
+    end
+    
+    it "takes in a suit" do
+      expect(a_hearts.suit).to eq("heart")
+    end
   
-  it "takes in a suit" do
-    expect(a_hearts.suit).to eq("heart")
   end
-  
-end
-
-
 end
